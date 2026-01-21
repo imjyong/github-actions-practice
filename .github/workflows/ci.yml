@@ -1,0 +1,10 @@
+name: Hello GitHub Actions
+
+on: [push]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "👋 Hello, GitHub Actions!"
+      - run: echo "push 하면 자동으로 실행됨"
